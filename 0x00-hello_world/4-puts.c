@@ -2,7 +2,7 @@
 /**
  * main - prints out the value inputed
  *
- * Return: returns 0 to end the program 
+ * Return: returns 0 to end the program
 */
 int main(void)
 {
