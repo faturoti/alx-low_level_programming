@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: This dispalys the string that is fed into printf
- *
+ * main: This dispalys the string fed into printf
+ * and send it to output
  * Return: returns 0 to end main
  */
 int main(void)
