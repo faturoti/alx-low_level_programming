@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - This is the main metho
@@ -9,11 +7,13 @@
  */
 int main(void)
 {
-	for (int a = 1; a < 27; a++)
+	int a;
+
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		putchar( tolower((char) a));
-		if (a == 26)
-			putchar("\n");
+		putchar(a);
+		if ( a == 'z')
+			putchar('\n');
 	}
 	return (0);
 }
