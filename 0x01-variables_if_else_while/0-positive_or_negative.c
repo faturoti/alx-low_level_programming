@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  * main - This is the main method
- * @n: The number to be checked
  *
  * Description: This helps to generate a random number
  *
@@ -20,6 +19,6 @@ int main(void)
 	if (n == 0)
 		printf("%d is zero\n", n);
 	if (n < 0)
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	return (0);
 }
