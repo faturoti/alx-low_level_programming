@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints all single digit numbers of base 10 starting from 0
  *
 (* Description: the function prints out values from 0 - 10)?
