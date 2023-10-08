@@ -4,7 +4,7 @@
 /**
  * main - This is the main method
  * @n: The number to be checked
- * more headers goes there
+ *
  * Description: This helps to generate a random number
  *
  * Return: returns 0 to end main method
@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
