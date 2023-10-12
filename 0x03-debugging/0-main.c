@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	char c;
+	int i;
+	
+	i = 98;
+	positive_or_negative(i);
 
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
 	return (0);
 }
