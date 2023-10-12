@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include </alx-low_level_programming/0x03-debugging/main.h>
 /**
  * main - check the code for Holberton School students
  *
