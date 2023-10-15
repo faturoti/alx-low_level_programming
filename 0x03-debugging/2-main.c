@@ -4,13 +4,13 @@
  * main - prints the largest of 3 integers
  * Return: 0
  */
+
 int main(void)
 {
 	int a, b, c;
+	int largest;
 
-	int largest
-		;
-	a = 972;
+	a = -6;
 	b = -98;
 	c = 0;
 
