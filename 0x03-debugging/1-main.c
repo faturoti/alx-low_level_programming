@@ -14,12 +14,13 @@ int main(void)
 	i = 0;
 /**
  * printf - Tp pritn loop
+ *
+ * Description: 'the program's description'
+ * @\\o/: good for food
  *	while (i < 10)
  *	{
  *		 putchar(i);
  *	}
- *
- * @\\\\o\/\\n: good for food
  */
 	printf("Infinite loop avoided! \\o/\n");
 
