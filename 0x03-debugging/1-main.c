@@ -12,12 +12,11 @@ int main(void)
 
 	i = 0;
 /**
- * This file was commented out to end infinite loop
- *	 while (i < 10)
- *	 {
- *		 putchar(i);
- *	 }
+ * printf - This file was commented out to end infinite loop
+ *
+ * @\\o/\n: for printing out the Infinite loop
  */
 	printf("Infinite loop avoided! \\o/\n");
+
 	return (0);
 }
