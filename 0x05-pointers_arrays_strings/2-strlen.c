@@ -1,12 +1,11 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strlen - Prints out length of string
  * @s: String to check
  *
  * Return length of string
  */
-int _strlen(const char *str)
+size_t _strlen(const char *str)
 {
 	int length = 0;
 	while (*str++)
