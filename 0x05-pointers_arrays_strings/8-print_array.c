@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_arrray - to help print ha;lf
  * @a: Number of element of array
@@ -10,7 +11,7 @@ void print_array(int *a, int n)
 
 	for (index = 0; index < n; index++)
 	{
-		printf("%d");
+		printf("%d", a[index]);
 
 		if (index == n - 1)
 			continue;
@@ -18,5 +19,6 @@ void print_array(int *a, int n)
 		printf(", ");
 
 	}
+
 	printf("\n");
 }
