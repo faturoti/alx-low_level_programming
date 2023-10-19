@@ -5,7 +5,7 @@
  * @s2: A pointer to the second string to be compared.
  *
  * Return: If str1 < str2
- * 	If str1 == str2, 0.
+ *	If str1 == str2, 0.
  */
 int _strcmp(char *s1, char *s2)
 {
