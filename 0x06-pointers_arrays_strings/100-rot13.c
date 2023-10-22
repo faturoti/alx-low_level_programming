@@ -1,21 +1,43 @@
 #include "main.h"
+
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
+ * rot13 - tThis would encrypt a string
+ * @str: String to be encrypted
+ *
+ * Return - Char value
  */
-void print_number(int n)
+char *rot13(char *str)
 {
-	unsigned int num = n;
-
-	if (n < 0)
+	while(str[i] != '\0')
 	{
-		_putchar('-');
-		num = -num;
+		str = transform(str[i]);
+		i++;
 	}
+	return (str);
+}
 
-	if ((num / 10) > 0)
-		print_number(num / 10);
+/**
+ * transform - This would help us to transform what we have
+ * @x: character to be transformed
+ *
+ * Returns the trasformed char
+ */
 
-	_putchar((num % 10) + '0');
+char transform(char x)
+{
+	char let[52] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char change[52] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	int i = 0;
+	char replacement = x;
 
+	while (i < 52)
+	{
+		if (x == let[i])
+		{
+			replacement = change[i];
+			break;
+		}
+		i++;
+	}
+	return (replacement);
 }
