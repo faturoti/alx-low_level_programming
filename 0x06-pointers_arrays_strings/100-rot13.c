@@ -4,11 +4,12 @@
  * rot13 - tThis would encrypt a string
  * @str: String to be encrypted
  *
- * Return - Char value
+ * Return: Char value
  */
+
 char *rot13(char *str)
 {
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 	{
 		str = transform(str[i]);
 		i++;
@@ -20,7 +21,7 @@ char *rot13(char *str)
  * transform - This would help us to transform what we have
  * @x: character to be transformed
  *
- * Returns the trasformed char
+ * Return: the trasformed char
  */
 
 char transform(char x)
