@@ -44,7 +44,6 @@ void print_all(const char * const format, ...)
 			default:
 				j++;
 			break;
-
 		}
 	}
 
@@ -87,8 +86,6 @@ int count_format(const char * const format)
 			default:
 				j++;
 				break;
-
-
 		}
 	}
 
