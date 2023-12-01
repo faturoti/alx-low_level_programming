@@ -7,7 +7,7 @@
  *
  * Return: If the function fails or filename is NULL - -1
  */
-nt append_text_to_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd, w, len = 0;
 

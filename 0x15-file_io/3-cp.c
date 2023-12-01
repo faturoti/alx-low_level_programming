@@ -39,7 +39,7 @@ int __exit(int error, char *s, int fd)
  */
 int main(int argc, char *argv[])
 {
-	int fd_1, fd_c, n_read, n_write;
+	int fd_1, fd_2, n_read, n_write;
 
 	char *buffer[1024];
 
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		__exit(97, NULL, 0);
 
 	/*sets file descriptor for copy-to file*/
-	fd_2 = open(argv[2], O_CREAT | o_TRUNC | O_WRONLY, 0664);
+	fd_2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	if (fd_2 == -1)
 		__exit(99, argv[2], 0);
 
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 
 		n_write = write(fd_2, buffer, 1024);
 
-		if (n_wrote == -1)
+		if (n_write == -1)
 			__exit(99, argv[2], 0);
 	}
 
