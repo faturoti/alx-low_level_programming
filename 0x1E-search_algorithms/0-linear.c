@@ -2,9 +2,9 @@
 /**
  * linear_search - To search for a value in an area
  *
- * @array - Pointer to area
- * @size - size of array
- * @value - value to search for
+ * @array: Pointer to area
+ * @size: size of array
+ * @value: value to search for
  *
  * Return: -1 for not value and number found
  */
